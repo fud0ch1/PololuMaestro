@@ -1,16 +1,15 @@
 # maestro.py - Python3 Support for Pololu Maestro
 
-Python Support for the Pololu Maestro line of servo controllers
-Original Code was Written by Steven Jacobs -- Aug 2013
-https://github.com/FRC4564/Maestro/
+Python Support for the Pololu Maestro line of servo controllers. The original 
+code was written by Steven Jacobs (Aug 2013) and located at- https://github.com/FRC4564/Maestro/
 These functions provide access to many of the Maestro's capabilities using the
 Pololu serial protocol
 
 
-Edited by Dave Foran -- Jan 2020 to fit into Python3 and PEP 8 Conventions
-I felt it was important to update this file in order to bring the original
-up to standard since Python2 is discontinued. It was also good practice for
-reformatting Python2 code to Python3 code.
+Code contained in this repository was edited by Dave Foran -- Jan 2020 to fit 
+into Python3 and PEP 8 Conventions. I felt it was important to update this file 
+in order to bring the original code up to standard since Python2 is discontinued. 
+It was also good practice for reformatting Python2 code to Python3 code.
 
 ## Getting Started / Setup
 
