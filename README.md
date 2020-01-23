@@ -50,13 +50,13 @@ Finally, download the maestro.py into your directory from which you are going to
 
 Example usage of maestro.py:
 
-import maestro
-servo = maestro.Controller()
-servo.set_acceleration(0,4)      #set servo 0 acceleration to 4
-servo.set_target(0,6000)  #set servo to move to center position
-servo.set_speed(1,10)     #set speed of servo 1
-x = servo.get_position(1) #get the current position of servo 1
-servo.close()
+    import maestro
+    servo = maestro.Controller()
+    servo.set_acceleration(0,4)   #set servo 0 acceleration to 4
+    servo.set_target(0,6000)      #set servo to move to center position
+    servo.set_speed(1,10)         #set speed of servo 1
+    x = servo.get_position(1)     #get the current position of servo 1
+    servo.close()
 
 There are other methods provided by the module. The code is well documented, if you'd like to learn more. 
 
