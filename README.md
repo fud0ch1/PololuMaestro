@@ -65,10 +65,6 @@ For use on Windows, you'll need to provide the COM port assigned to the Maestro 
 import maestro
 m = maestro.Controller('COM3')
 
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
 ## Authors
 
 * **Steven Jacobs** - *Initial work* - [FRC4564](https://github.com/FRC4564)
